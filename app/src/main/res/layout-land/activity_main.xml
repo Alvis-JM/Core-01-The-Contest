@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF6F6"
+    android:backgroundTint="#FBFAFA"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="125dp"
+        android:layout_height="105dp"
+        android:text="@string/_0"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:textSize="74sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <LinearLayout
+        android:layout_width="468dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="82dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result"
+        app:layout_constraintVertical_bias="0.977">
+
+        <Button
+            android:id="@+id/btn_score"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#3949AB"
+            android:text="@string/score"
+            android:textColor="#F8F8F8"
+            app:iconPadding="10dp" />
+
+        <Button
+            android:id="@+id/btn_steal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3949AB"
+            android:text="@string/steal"
+            android:textColor="#F8F8F8" />
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_weight="1"
+            android:backgroundTint="#3949AB"
+            android:text="@string/reset"
+            android:textColor="#F8F8F8"
+            app:rippleColor="#00ACC1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

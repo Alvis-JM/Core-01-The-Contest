@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">比赛</string>
+    <string name="_0">0</string>
+    <string name="button">Button</string>
+    <string name="score">添加</string>
+    <string name="steal">偷</string>
+    <string name="reset">重置</string>
+</resources>
